@@ -9,6 +9,8 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "fastboot-app-server": "^1.0.0-beta.2"
+    "fastboot-app-server": "^1.0.0-beta.2",
+    "fastboot-s3-downloader": "^0.2.0",
+    "fastboot-s3-notifier": "^0.1.1"
   }
 }
