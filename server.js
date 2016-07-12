@@ -4,7 +4,7 @@ const FastBootAppServer = require('fastboot-app-server');
 const S3Notifier = require('fastboot-s3-notifier');
 const S3Downloader = require('fastboot-s3-downloader');
 const Creds = {
-  distPath: '/home/production/dockyard-app-server/dist',
+  distPath: './build',
   bucket: 'dockyard-com-staging',
   key: 'dy.json'
 };
@@ -12,7 +12,6 @@ const Creds = {
 let downloader = new S3Downloader(Creds);
 let notifier = new S3Notifier(Creds);
 let server = new FastBootAppServer({
-  outputPath: '/home/production/dockyard-app-server/dist',
   downloader,
   notifier
 });
