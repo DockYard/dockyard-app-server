@@ -5,7 +5,7 @@ const S3Notifier = require('fastboot-s3-notifier');
 const S3Downloader = require('fastboot-s3-downloader');
 const Creds = {
   distPath: './build',
-  bucket: 'dockyard-com-staging',
+  bucket: process.env['BUCKET_NAME'],
   key: 'dy.json'
 };
 
