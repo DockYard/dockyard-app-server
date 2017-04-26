@@ -11,6 +11,6 @@
   "devDependencies": {
     "fastboot-app-server": "1.0.0-rc.4 ",
     "fastboot-s3-downloader": "bcardarella/fastboot-s3-downloader#bc-support-tarballs",
-    "fastboot-s3-notifier": "^0.1.1"
+    "fastboot-s3-notifier": "tomdale/fastboot-s3-notifier"
   }
 }
